@@ -16,16 +16,16 @@ RSpec.describe "As a user" do
 
       within(first('.member')) do
         within('.name') do
-          expect(page).to have_content('Name: ')
+          expect(page).to have_content('Name: Sirius Black')
         end 
         within('.role') do
-          expect(page).to have_content('Role of the member: ')
+          expect(page).to have_content('Role of the member: This member has no role')
         end 
         within('.house') do
-          expect(page).to have_content('Member belongs to the following house: ')
+          expect(page).to have_content('Member belongs to the following house: Gryffindor')
         end 
         within('.patronus') do
-          expect(page).to have_content('Patronus: ')
+          expect(page).to have_content('Patronus: This member has no patronus')
         end
       end 
     end 
