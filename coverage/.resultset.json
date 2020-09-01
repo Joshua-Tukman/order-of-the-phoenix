@@ -1,0 +1,92 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/joshuatukman/module3/order-of-the-phoenix/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/joshuatukman/module3/order-of-the-phoenix/app/poros/member.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          44,
+          44,
+          44,
+          44,
+          null,
+          null
+        ]
+      },
+      "/Users/joshuatukman/module3/order-of-the-phoenix/app/services/potter_service.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          44,
+          null,
+          1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/joshuatukman/module3/order-of-the-phoenix/app/controllers/welcome_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/joshuatukman/module3/order-of-the-phoenix/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/joshuatukman/module3/order-of-the-phoenix/app/controllers/search_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/joshuatukman/module3/order-of-the-phoenix/app/models/application_record.rb": {
+        "lines": [
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      }
+    },
+    "timestamp": 1598979576
+  }
+}
