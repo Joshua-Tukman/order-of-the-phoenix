@@ -1,0 +1,29 @@
+<h1>There are <%= @members.length %> members of the Order of Phoenix in the house of Gryffindor</h1>
+<ol>
+<% @members.each do |member| %>
+  <section class='member'>
+    <section class='name'>
+      <li>Name: <%= member.name %></li><br>
+    </section>
+    <section class='role'>
+      Role of the member:
+      <% if member.role.nil? %>
+        This member has no role
+      <% else %>
+        <%= member.role %><br>
+      <% end %>
+    </section>
+    <section class='house'>
+      Member belongs to the following house: <%= member.house %><br>
+    </section>
+    <section class='patronus'>
+      Patronus:
+      <% if member.patronus.nil? %>
+        This member has no patronus
+      <% else %>
+       <%= member.patronus %><br><br><br>
+      <% end %>
+    </section>       
+  </section>
+<% end %>
+</ol>
