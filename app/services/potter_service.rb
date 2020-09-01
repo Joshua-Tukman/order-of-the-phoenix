@@ -3,8 +3,6 @@ class PotterService
     response = get_json("/v1/characters?house=#{house}&orderOfThePhoenix=true")
     members = response.map{ |member_info| Member.new(member_info) }
   end 
-
-
   private
 
   def get_json(url)
