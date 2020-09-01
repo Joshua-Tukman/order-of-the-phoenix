@@ -3,10 +3,10 @@
 <% @members.each do |member| %>
   <section class='member'>
     <section class='name'>
-      <li>Name: <%= member.name %></li><br>
+      <li><strong>Name:</strong> <%= member.name %></li><br>
     </section>
     <section class='role'>
-      Role of the member:
+      <strong>Role of the member:</strong>
       <% if member.role.nil? %>
         This member has no role
       <% else %>
@@ -14,10 +14,10 @@
       <% end %>
     </section>
     <section class='house'>
-      Member belongs to the following house: <%= member.house %><br>
+      <strong>Member belongs to the following house:</strong> <%= member.house %><br>
     </section>
     <section class='patronus'>
-      Patronus:
+      <strong>Patronus:</strong>
       <% if member.patronus.nil? %>
         This member has no patronus
       <% else %>
